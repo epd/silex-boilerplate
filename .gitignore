@@ -1,0 +1,6 @@
+composer.lock
+composer.phar
+vendor/.composer
+logs/app.log
+silex.phar
+vendor/
