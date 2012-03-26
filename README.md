@@ -23,5 +23,5 @@ php -S localhost:8080 ./silex-boilerplate
 ```
 
 ## Future ##
-I intend to integrate this fully with [Backbone Boilerplate](https://github.com
-/tbranyen/backbone-boilerplate) as a backend/REST portion of the framework.
+I intend to integrate this fully with [Backbone Boilerplate](https://github.com/tbranyen/backbone-boilerplate)
+as a backend/REST portion of the framework.
