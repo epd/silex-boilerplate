@@ -1,0 +1,6 @@
+[submodule "vendor/mongodb"]
+	path = vendor/mongodb
+	url = https://github.com/doctrine/mongodb
+[submodule "vendor/silex-extension"]
+	path = vendor/silex-extension
+	url = git@github.com:fate/Silex-Extensions.git
