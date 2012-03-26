@@ -3,5 +3,4 @@ composer.phar
 vendor/.composer
 vendor/twig
 vendor/monolog
-logs/app.log
 silex.phar
