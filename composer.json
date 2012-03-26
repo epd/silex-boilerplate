@@ -1,6 +1,7 @@
 {
   "require": {
     "twig/twig": "*",
-    "monolog/monolog": "*"
+    "monolog/monolog": "*",
+    "evNN/less-service-provider": "*"
   }
 }

@@ -12,6 +12,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 // Register namespace for Silex Extensions
 $app['autoloader']->registerNamespace('SilexExtension', __DIR__ . '/vendor/silex-extension/src');
+$app['autoloader']->registerNamespace('evNN', __DIR__ . '/vendor/evNN/less-service-provider/src');
 
 // Include Monolog to add application debug logging
 $app->register(new Silex\Provider\MonologServiceProvider(), array(
@@ -31,4 +32,11 @@ $app->register(new SilexExtension\MongoDbExtension(), array(
   'mongodb.connection' => array(
     'server' => 'mongodb://localhost',
   )
+));
+
+// Include the LESS CSS component
+$app->register(new evNN\Silex\Less\LessServiceProvider(), array(
+  'less.less_dir' => __DIR__ . '/assets/less',
+  'less.app_less' => 'app.less',
+  'less.app_css'  => __DIR__ . '/assets/css/app.css',
 ));

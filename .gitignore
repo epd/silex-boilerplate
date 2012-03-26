@@ -1,6 +1,4 @@
 composer.lock
 composer.phar
-vendor/.composer
-vendor/twig
-vendor/monolog
 silex.phar
+vendor/
