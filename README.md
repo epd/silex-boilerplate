@@ -21,7 +21,7 @@ and install all dependencies for the project.
 If you have PHP 5.4 installed, you can simply run the following and start a new
 local development server to test out your app:
 
-``` php
+``` bash
 $ php -S localhost:8080 ./silex-boilerplate
 ```
 
