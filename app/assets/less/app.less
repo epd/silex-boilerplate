@@ -1,26 +1,44 @@
 // Background color
 @bg: #efefef;
+@light-gray: #444;
 
 // Typography mixins
 .i() {
   font-style: italic;
 }
+.normal() {
+  font-weight: 100;
+}
 .serif() {
   font-family: Constantia, "Lucida Bright", "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", Georgia, serif;
+}
+.sans-serif() {
+  font-family: sans-serif;
 }
 
 /* Main styles */
 body {
   margin: 60px;
+  min-width: 650px;
   background: @bg;
 }
 
 /* Our main heading */
 h1 {
   // Inherit these
-  .i();
-  .serif();
+  .sans-serif();
+  .normal();
 
   // Some additional styles
   text-shadow: 1px 1px 0 #fff;
+}
+
+/* Some paragraph styles */
+p {
+  .i();
+  .serif();
+
+  width: 650px;
+  font-size: 1.1em;
+  color: @light-gray;
 }
