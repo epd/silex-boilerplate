@@ -1,6 +1,5 @@
 composer.lock
 composer.phar
 silex.phar
-vendor/
-!vendor/mongodb
-!vendor/silex-extension
+!system/vendor/silex-extension
+!system/vendor/mongodb
