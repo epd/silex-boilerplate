@@ -24,5 +24,12 @@ $app->get('/', function() use($app) {
   ));
 });
 
+// Compile LESS files in a "before" filter
+$app->before(function () use($app) {
+  if (!$app['less']->isClean()) {
+    $app['less']->compile();
+  }
+});
+
 // All systems are go!
 $app->run();

@@ -2,6 +2,6 @@
   "require": {
     "twig/twig": "*",
     "monolog/monolog": "*",
-    "evNN/less-service-provider": "*"
+    "evNN/less-service-provider": "dev-master"
   }
 }

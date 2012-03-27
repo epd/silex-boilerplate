@@ -13,6 +13,10 @@ use Symfony\Component\HttpFoundation\Response;
 // Register namespace for Silex Extensions
 $app['autoloader']->registerNamespace('SilexExtension', __DIR__ . '/vendor/silex-extension/src');
 $app['autoloader']->registerNamespace('evNN', __DIR__ . '/vendor/evNN/less-service-provider/src');
+$app['autoloader']->registerNamespace('LessElephant', __DIR__ . '/vendor/cypresslab/less-elephant/src');
+$app['autoloader']->registerNamespace('Symfony\\Component\\Finder', __DIR__ . '/vendor/symfony/finder');
+$app['autoloader']->registerNamespace('Symfony\\Component\\Process', __DIR__ . '/vendor/symfony/process');
+
 
 // Include Monolog to add application debug logging
 $app->register(new Silex\Provider\MonologServiceProvider(), array(
