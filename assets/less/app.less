@@ -1,7 +1,7 @@
-/* Background color */
+// Background color
 @bg: #efefef;
 
-/* Typography mixins */
+// Typography mixins
 .i() {
   font-style: italic;
 }
@@ -11,16 +11,16 @@
 
 /* Main styles */
 body {
-  margin: 40px;
+  margin: 60px;
   background: @bg;
 }
 
 /* Our main heading */
 h1 {
-  /* Inherit these */
+  // Inherit these
   .i();
   .serif();
 
-  /* Some additional styles */
+  // Some additional styles
   text-shadow: 1px 1px 0 #fff;
 }
