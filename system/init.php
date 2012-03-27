@@ -40,9 +40,9 @@ $app->register(new SilexExtension\MongoDbExtension(), array(
 
 // Include the LESS CSS component
 $app->register(new evNN\Silex\Less\LessServiceProvider(), array(
-  'less.less_dir' => __DIR__ . '/../assets/less',
+  'less.less_dir' => __DIR__ . '/../app/assets/less',
   'less.app_less' => 'app.less',
-  'less.app_css'  => __DIR__ . '/../assets/css/app.css',
+  'less.app_css'  => __DIR__ . '/../app/assets/css/app.css',
   'less.flags'    => '--yui-compress',
 ));
 

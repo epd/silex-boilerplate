@@ -11,5 +11,6 @@ $app->get('/', function() use($app) {
   }
   return $app['twig']->render('layout.twig', array(
     'title' => 'My Web App',
+    'app_css' => '/app/assets/css/app.css',
   ));
 });
