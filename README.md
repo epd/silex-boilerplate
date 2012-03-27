@@ -12,8 +12,11 @@ for PHP as well as git submodules for dependencies not yet available as a
 Composer package. Open up a new Terminal window and run this command:
 
 ``` bash
-curl -S https://raw.github.com/evNN/silex-boilerplate/master/get.sh | sh
+curl -S https://raw.github.com/evNN/silex-boilerplate/master/system/get.sh | sh
 ```
+
+This will create a new directory `silex-boilerplate` in the current working directory
+and install all dependencies for the project.
 
 If you have PHP 5.4 installed, you can simply run the following and start a new
 local development server to test out your app:
