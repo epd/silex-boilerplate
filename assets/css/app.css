@@ -1,0 +1,17 @@
+/* Background color */
+/* Typography mixins */
+/* Main styles */
+body {
+  margin: 40px;
+  background: #efefef;
+}
+/* Our main heading */
+h1 {
+  /* Inherit these */
+
+  font-style: italic;
+  font-family: Constantia, "Lucida Bright", "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", Georgia, serif;
+  /* Some additional styles */
+
+  text-shadow: 1px 1px 0 #fff;
+}
