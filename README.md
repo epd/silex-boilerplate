@@ -3,7 +3,7 @@ Silex Boilerplate
 
 This is a simple boilerplate for an application written with the [Silex PHP 
 microframework](http://silex.sensiolabs.org/). It is intended to be a starting 
-point for a REST Web application.  It comes with Twig and MongoDB support by 
+point for a REST Web application.  It comes with Twig, MongoDB, and LESS support by 
 default.
 
 ## Installation ##
