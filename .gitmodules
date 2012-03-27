@@ -1,6 +1,6 @@
 [submodule "system/vendor/mongodb"]
-	path = system/vendor/mongodb
-	url = git://github.com/doctrine/mongodb.git
+  path = system/vendor/mongodb
+  url = git://github.com/doctrine/mongodb.git
 [submodule "system/vendor/silex-extension"]
-	path = system/vendor/silex-extension
-	url = git://github.com/fate/Silex-Extensions.git 
+  path = system/vendor/silex-extension
+  url = git://github.com/fate/Silex-Extensions.git
