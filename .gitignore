@@ -1,6 +1,9 @@
 composer.lock
 composer.phar
 silex.phar
-system/vendor
-!system/vendor/silex-extension
-!system/vendor/mongodb
+system/vendor/.composer
+system/vendor/cypresslab
+system/vendor/evNN
+system/vendor/monolog
+system/vendor/symfony
+system/vendor/twig
