@@ -28,22 +28,17 @@ $ php -S localhost:8080 ./silex-boilerplate
 ### Important ###
 You must give write access to the `system/logs` directory for Monolog to be able to do
 its job. Also, to use LESS compilation, the component needs write access to `app/assets/css`
-and `app/assets/less`. Use something similar to the following if you encounter any problems.
+and `app/assets/less`. Use something similar to the following if you encounter any problems:
 
 ``` bash
 $ chmod a+w system/logs app/assets/less app/assets/css
 ```
 
-You must also have the `less.js` binary and library files installed in your system for the
-LESS component to function successfully. Grab a checkout of the [less.js Repository](https://github.com/cloudhead/less.js)
-and move the `bin/lessc` file and `lib/less` directory into a directory that is seen by `$PATH`.
-This is most likely `/usr/bin`, `/usr/local/bin`, `/usr/lib` or `/usr/local/lib`.
+You must also have the `less` node.js binary and library files installed in your system for the
+LESS component to function successfully. Install it with the following:
 
 ``` bash
-$ git clone https://github.com/cloudhead/less.js.git
-$ cd less.js
-$ mv bin/lessc /usr/local/bin/
-$ mv lib/less /usr/local/lib/
+$ npm install -g less
 ```
 
 ## Future ##
